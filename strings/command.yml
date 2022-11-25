@@ -107,6 +107,6 @@ ACTIVEVC_COMMAND : ["vcs"]
 ACTIVEVIDEO_COMMAND : ["vcv"]
 
 #Gban Commands
-GBAN_COMMAND : ["mgban"]
-UNGBAN_COMMAND : ["mungban"]
-GBANNED_COMMAND : ["mgbannedusers"]
+GBAN_COMMAND : ["cgban"]
+UNGBAN_COMMAND : ["cungban"]
+GBANNED_COMMAND : ["cgbannedusers"]

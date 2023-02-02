@@ -83,7 +83,7 @@ def telegram_markup(_):
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             ),
             InlineKeyboardButton(
-                text="ᴅᴏɴᴀsɪ ❤️", url="t.me/banned_007"
+                text=_["ᴅᴏɴᴀsɪ ❤️"], url="t.me/banned_007"
             ),
         ],
     ]

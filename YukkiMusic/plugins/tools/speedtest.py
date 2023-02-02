@@ -8,12 +8,8 @@
 # All rights reserved.
 
 import asyncio
-import os
-
 import speedtest
-import wget
 from pyrogram import filters
-
 from strings import get_command
 from YukkiMusic import app
 from YukkiMusic.misc import SUDOERS
@@ -26,25 +22,24 @@ def testspeed(m):
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = m.edit("Menjalankan Unduh Tes Kecepatan")
+        m = m.edit("Running Download SpeedTest")
         test.download()
-        m = m.edit("Menjalankan Pengunggahan Tes Kecepatan")
+        m = m.edit("Running Upload SpeedTest")
         test.upload()
         test.results.share()
         result = test.results.dict()
-        m = m.edit("Berbagi Hasil Tes Kecepatan")
-        path = wget.download(result["share"])
+        m = m.edit("Sharing SpeedTest Results")
     except Exception as e:
         return m.edit(e)
-    return result, path
+    return result
 
 
 @app.on_message(filters.command(SPEEDTEST_COMMAND) & SUDOERS)
 async def speedtest_function(client, message):
-    m = await message.reply_text("Menjalankan Tes Kecepatan")
+    m = await message.reply_text("Running Speed test")
     loop = asyncio.get_event_loop()
-    result, path = await loop.run_in_executor(None, testspeed, m)
-    output = f"""**Hasil Tes Kecepatan**
+    result = await loop.run_in_executor(None, testspeed, m)
+    output = f"""**Speedtest Results**
     
 <u>**Client:**</u>
 **__ISP:__** {result['client']['isp']}

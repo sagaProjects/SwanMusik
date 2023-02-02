@@ -343,7 +343,7 @@ QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ {0} ᴅᴀʀɪ {1} ᴍᴇɴɪᴛ"
 
 #Sudo
 sudo_1 : "{0} sudah menjadi Mafia Member."
-sudo_2 : "Diangkat *{0}** Menjadi Mafia Member."
+sudo_2 : "Diangkat **{0}** Menjadi Mafia Member."
 sudo_3 : "Bukan bagian dari anggota Mafia Member."
 sudo_4 : "Diturunkan Pangkat Menjadi Babu"
 sudo_5 : "☀️<u> **Mafia chief:**</u>\n"

@@ -70,10 +70,7 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["S_B_9"], url="t.me/banned_007"
             ),
-        ]
-     ]
-    return buttons
-def stream_markup(_, videoid)
+
     buttons = [
          [
             InlineKeyboardButton(

@@ -70,9 +70,10 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["S_B_9"], url="t.me/banned_007"
             ),
-        
-        
-        
+        ]
+     ]
+    buttons = [
+         [
             InlineKeyboardButton(
                 text=_["S_B_7"], url="t.me/alxelsupport"
             ),

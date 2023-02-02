@@ -68,6 +68,7 @@ def stream_markup(_, videoid):
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
+
             )
         ],
     ]
@@ -80,6 +81,9 @@ def telegram_markup(_):
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
+            ),
+            InlineKeyboardButton(
+                text="ᴅᴏɴᴀsɪ ❤️", url="t.me/banned_007"
             ),
         ],
     ]

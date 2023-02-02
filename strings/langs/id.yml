@@ -339,16 +339,16 @@ SA_B_8 : "🤖 sᴛᴀᴛɪsᴛɪᴋ ʙᴏᴛ"
 QU_B_1 : "📑 ᴅᴀғᴛᴀʀ ᴀɴᴛʀɪᴀɴ"
 QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ {0} ᴅᴀʀɪ {1} ᴍᴇɴɪᴛ"
 
-# Anggota Nabi [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
+# Mafia member [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
 
 #Sudo
-sudo_1 : "{0} sudah menjadi Nabi."
-sudo_2 : "Diangkat *{0}** Menjadi Nabi."
-sudo_3 : "Bukan bagian dari anggota Nabi."
-sudo_4 : "Diturunkan Pangkat Menjadi Manusia Biasa"
-sudo_5 : "☀️<u> **Tuhan:**</u>\n"
-sudo_6 : "\n🌟<u> **Anggota Nabi:**</u>\n"
-sudo_7 : "Tidak Ada Anggota Nabi"
+sudo_1 : "{0} sudah menjadi Mafia Member."
+sudo_2 : "Diangkat *{0}** Menjadi Mafia Member."
+sudo_3 : "Bukan bagian dari anggota Mafia Member."
+sudo_4 : "Diturunkan Pangkat Menjadi Babu"
+sudo_5 : "☀️<u> **Mafia chief:**</u>\n"
+sudo_6 : "\n🌟<u> **Mafia Member:**</u>\n"
+sudo_7 : "Tidak Ada Mafia Member"
 
 #Memblokir
 block_1 : "{0} sudah diblokir dari bot."
@@ -433,7 +433,7 @@ pbot_13 : "\n**<b>Obrolan Tidak Diambil:</b>**\n\n"
 
 
 #Gbanned
-gban_1 : "Kamu mau gban sendiri? Bodoh!"
+gban_1 : "Tolol Ngapain gban sendiri? Bodoh!"
 gban_2 : "Haruskah saya memblokir diri saya sendiri? Lol"
 gban_3 : "Anda ingin memblokir pengguna sudo?"
 gban_4 : "{0} sudah **gbanned** dari bot."

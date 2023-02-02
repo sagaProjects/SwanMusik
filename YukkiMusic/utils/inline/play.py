@@ -72,6 +72,8 @@ def stream_markup(_, videoid):
             ),
         ]
      ]
+    return buttons
+def stream_markup(_, videoid)
     buttons = [
          [
             InlineKeyboardButton(

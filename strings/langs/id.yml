@@ -145,7 +145,7 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** Channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke Channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Bermain
-play_1 : "**🔄 Processing!**"
+play_1 : "**🔄 sᴀʙᴀʀ ʏᴀ ᴄᴏᴋ**"
 play_2 : "**🏷 Mode Putar Chanell**\n\n🔄 Memproses Query... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses Query!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -208,7 +208,7 @@ lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian 
 
 #Ping
 ping_1 : "Pong!!!!!"
-ping_2 : "**Pong!**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
+ping_2 : "**ᴅᴜᴀʀ!!!**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
 
 
 # Lagu
@@ -437,8 +437,8 @@ gban_1 : "Tolol Ngapain gban sendiri? Bodoh!"
 gban_2 : "Haruskah saya memblokir diri saya sendiri? Lol"
 gban_3 : "Anda ingin memblokir pengguna sudo?"
 gban_4 : "{0} sudah **gbanned** dari bot."
-gban_5 : "**Menginisialisasi Larangan Gobal pada {0}**\n\nWaktu yang Diharapkan : {1}."
-gban_6 : "**Berhasil Dibanned**\n\nBanned **{0}** dari **{1}** chat."
+gban_5 : "**sᴀʙᴀʀ ᴄᴏᴋ ʟᴀɢɪ ɴɢᴇʟᴜᴀʀɪɴ ᴜʟᴛɪ pada {0}**\n\nWaktu yang Diharapkan : {1}."
+gban_6 : "**ᴏʀᴀɴɢɴʏ ᴜᴅᴀʜ**\n\nᴍᴀᴍᴘᴜs **{0}** dari **{1}** chat."
 gban_7 : "{0} belum **gbanned **belum dari bot."
 gban_8 : "**Membatalkan pemblokiran {0}**\n\nWaktu yang Diharapkan : {1}."
 gban_9 : "**UnGbanned Berhasil**\n\nUnbanned **{0}** di **{1}** chat."

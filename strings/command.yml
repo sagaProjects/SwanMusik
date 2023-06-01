@@ -57,7 +57,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["anuan"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["gcast"]
@@ -107,6 +107,6 @@ ACTIVEVC_COMMAND : ["vcs"]
 ACTIVEVIDEO_COMMAND : ["vcv"]
 
 #Gban Commands
-GBAN_COMMAND : ["cgban"]
-UNGBAN_COMMAND : ["cungban"]
+GBAN_COMMAND : ["anu"]
+UNGBAN_COMMAND : ["dianuin"]
 GBANNED_COMMAND : ["cgbannedusers"]

@@ -57,8 +57,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("mahadappa")
-                await self.one.join_chat("pantekyks")
+                await self.one.join_chat("minusC0dde")
+                await self.one.join_chat("rintihanhaati")
             except:
                 pass
             assistants.append(1)
@@ -87,8 +87,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("mahadappa")
-                await self.two.join_chat("pantekyks")
+                await self.two.join_chat("minusC0dde")
+                await self.two.join_chat("rintihanhaati")
             except:
                 pass
             assistants.append(2)
@@ -117,8 +117,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("mahadappa")
-                await self.three.join_chat("pantekyks")
+                await self.three.join_chat("minusC0dde")
+                await self.three.join_chat("rintihanhaati")
             except:
                 pass
             assistants.append(3)
@@ -147,8 +147,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("mahadappa")
-                await self.four.join_chat("pantekyks")
+                await self.four.join_chat("minusC0dde")
+                await self.four.join_chat("rintihanhaati")
             except:
                 pass
             assistants.append(4)
@@ -177,8 +177,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("mahadappa")
-                await self.five.join_chat("pantekyks")
+                await self.five.join_chat("minusC0dde")
+                await self.five.join_chat("rintihanhaati")
             except:
                 pass
             assistants.append(5)
